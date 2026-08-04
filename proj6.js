@@ -1,3 +1,4 @@
+// Program 6: Check Whether a Given String is a Palindrome
 const readline = require("readline");
 
 const rl = readline.createInterface({
