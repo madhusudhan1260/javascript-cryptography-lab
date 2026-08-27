@@ -120,13 +120,44 @@
 // console.log(totalmarks(80,75,90,85));
 
 
-let name = "Rahul";
-let age = 20;
-let department = "CSE";
+// let name = "Rahul";
+// let age = 20;
+// let department = "CSE";
 
-let student = {
-    name,
-    age,
-    department: department
-};
-console.log(student);
+// let student = {
+//     name,
+//     age,
+//     department: department
+// };
+// console.log(student);
+
+
+
+// Set ElementInternals()
+
+// let count=1;
+// const id = setInterval(()=>{
+//     console.log(count);
+//     count++;
+//     if(count>5) 
+//         clearInterval(id);
+// },1000);
+
+// function orderPizza() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("Pizza is ready!");
+//         }, 2000);
+//     });
+// }
+
+// async function getPizza() {
+//     try {
+//         const result = await orderPizza();
+//         console.log(result);
+//     } catch (error) {
+//         console.log("Oops", error);
+//     }
+// }
+
+// getPizza();
